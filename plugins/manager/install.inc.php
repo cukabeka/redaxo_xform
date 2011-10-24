@@ -37,8 +37,7 @@ $sql->setQuery('CREATE TABLE IF NOT EXISTS `rex_xform_field` (
   `f9` text NOT NULL,
   `list_hidden` tinyint(4) NOT NULL,
   `search` tinyint(4) NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE(`table_name`, `type_name`)
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;');
 
 $sql->setQuery('ALTER TABLE `rex_xform_field` CHANGE `prio` `prio` INT NOT NULL');
