@@ -1,4 +1,4 @@
-version: '3.0.1'
+version: '3.0.2'
 author: 'Jan Kristinus'
 supportpage: www.yakamara.de/tag/xform/
 
@@ -12,4 +12,4 @@ navigation:
 requires:
   addons:
     phpmailer:
-      min-version: '1.3'
+      min-version: '5.0 alpha2'
