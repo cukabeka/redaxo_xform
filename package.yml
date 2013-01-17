@@ -1,6 +1,7 @@
 version: '3.0.2'
 author: 'Jan Kristinus'
 supportpage: www.yakamara.de/tag/xform/
+package: xform
 
 navigation:
   title: 'translate:xform'
